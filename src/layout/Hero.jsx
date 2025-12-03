@@ -1,10 +1,10 @@
 import React from 'react'
-import Grafice from '../assets/grafice.png'
+import Banner from '../assets/banner.png'
 import Image from '../compnent/Image'
 const Hero = () => {
   return (
 <section>
-    <Image className='w-full' src={Grafice}/>
+    <Image className='w-full' src={Banner}/>
 </section>
   )
 }
