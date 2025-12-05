@@ -7,8 +7,9 @@ const Homepage = () => {
   return (
     <section className='pt-[40px]'>
         <Container>
-            <Hero/>
             <Banner/>
+            <Hero/>
+          
         </Container>
         
     </section>
