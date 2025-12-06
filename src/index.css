@@ -1,5 +1,11 @@
 
 @import "tailwindcss";
   @theme {
-    --font-dm: "DM Sans", sans-serif;
+    --font-orbi: "Orbitron", sans-serif;
+    --font-exo: "Exo", sans-serif;
+}
+
+.box{
+  position: absolute;
+  color:#ffffffbf;
 }

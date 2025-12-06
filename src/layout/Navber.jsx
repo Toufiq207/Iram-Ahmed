@@ -5,15 +5,24 @@ import NaveberList from '../compnent/NaveberList'
 
 const Navber = () => {
   return (
-<nav className='bg-amber-300 py-3 fixed w-full'>
-    <Container>
-        <Flex className='justify-between'>
-            <NaveberList text='Home'/>
-            <NaveberList text='About'/>
-            <NaveberList text='Service'/>
-            <NaveberList text='Project'/>
-        </Flex>
-    </Container>
+<nav className="bg-[#001202] py-[32px] fixed w-full">
+  <Container>
+    <div className="w-full flex justify-between items-center">
+      <div className="logo w-1/2">
+        {/* Logo or anything */}
+      </div>
+
+      <div className="menu w-1/2">
+        <ul className="flex justify-between uppercase">
+          <NaveberList text="Home" />
+          <NaveberList text="Service" />
+          <NaveberList text="Portfolio" />
+          <NaveberList text="About" />
+          <NaveberList text="Contact" />
+        </ul>
+      </div>
+    </div>
+  </Container>
 </nav>
   )
 }

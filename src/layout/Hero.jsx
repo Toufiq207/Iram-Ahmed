@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../assets/kuakataTour.png'
+import Banner from '../assets/iram.png'
 import Image from '../compnent/Image'
 const Hero = () => {
   return (

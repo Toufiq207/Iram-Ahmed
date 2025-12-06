@@ -1,14 +1,15 @@
 import React from 'react'
 import Container from '../compnent/Container'
-import Banner from '../layout/Banner'
 import Hero from '../layout/Hero'
+import Service from '../page/Service'
 
 const Homepage = () => {
   return (
-    <section className='pt-[40px]'>
+    <section className='pt-[12px]'>
         <Container>
-            <Banner/>
+            
             <Hero/>
+            <Service/>
           
         </Container>
         

@@ -2,7 +2,7 @@ import React from 'react'
 
 const NaveberList = ({text,className}) => {
   return (
-      <li className={`text-sm text-primary font-normal hover:font-bold font-dm list-none hover:text-secondary cursor-pointer duration-500 ${className}`}>{text}</li>
+      <li className={`text-[16px] text-[#FFFFFF] font-normal hover:font-bold font-orbi list-none  cursor-pointer duration-500 ${className}`}>{text}</li>
   )
 }
 
