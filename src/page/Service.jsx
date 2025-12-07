@@ -25,7 +25,7 @@ const Service = () => {
          <div className='w-fit mx-auto'>
            <Image className='pb-4' src={VedioEditin}/>
           <Image className='pb-[120px]' src={Border}/>
-            {/* <Cart img={ VedioThamline } text='Wedding video' /> */}
+          
             <Flex className='gap-4n flex-wrap'>
               <Cart img={ VedioThamline } text='Wedding video'/>
               <Cart img={ Taka } text='Cinematography'/>
