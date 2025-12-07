@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../compnent/Image'
-import TestimoniaPic from '../assets/testimonials.png'
+
 import LineThree from '../assets/linethree.png'
 
 import Flex from '../compnent/Flex'
