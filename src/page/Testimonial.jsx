@@ -2,9 +2,10 @@ import React from 'react'
 import Image from '../compnent/Image'
 import TestimoniaPic from '../assets/testimonials.png'
 import LineThree from '../assets/linethree.png'
-import TestimonialCart from '../compnent/testimonialCart'
+
 import Flex from '../compnent/Flex'
 import Bar from '../assets/bar.png'
+import TestimonialCart from '../compnent/testimonialCart'
 const Testimonial = () => {
   return (
     <section className='bg-[#FFFFFF]'>
