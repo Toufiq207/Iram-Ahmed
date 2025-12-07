@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../compnent/Container'
 import Hero from '../layout/Hero'
 import Service from '../page/Service'
+import About from './About'
+import Testimonial from './Testimonial'
 
 const Homepage = () => {
   return (
@@ -10,6 +12,8 @@ const Homepage = () => {
             
             <Hero/>
             <Service/>
+            <About/>
+            <Testimonial/>
           
         </Container>
         
