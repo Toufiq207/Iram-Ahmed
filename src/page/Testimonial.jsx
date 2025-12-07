@@ -5,7 +5,8 @@ import LineThree from '../assets/linethree.png'
 
 import Flex from '../compnent/Flex'
 import Bar from '../assets/bar.png'
-import TestimonialCart from '../compnent/testimonialCart'
+import TestimonialCart from "../component/TestimonialCart";
+
 const Testimonial = () => {
   return (
     <section className='bg-[#FFFFFF]'>
