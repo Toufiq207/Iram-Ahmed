@@ -3,6 +3,7 @@ import Container from '../compnent/Container'
 import Flex from '../compnent/Flex'
 import NaveberList from '../compnent/NaveberList'
 import { FaFacebookSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Image from '../compnent/Image';
 
 const Navber = () => {
   return (
@@ -10,11 +11,13 @@ const Navber = () => {
   <Container>
     <div className="w-full flex justify-between items-center">
       <div className="logo w-1/2">
-      <Flex className='gap-2'>
+     
+       <Flex className='gap-2'>
         <FaFacebookSquare  className='text-white'/>
       <FaLinkedin className='text-white'/>
 <FaYoutube className='text-white' />
       </Flex>
+     
         {/* Logo or anything */}
       </div>
 

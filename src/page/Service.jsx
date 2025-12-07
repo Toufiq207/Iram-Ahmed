@@ -25,21 +25,21 @@ const Service = () => {
           <Image className='pb-4' src={VedioEditin}/>
           <Image className='pb-[120px]' src={Border}/>
             {/* <Cart img={ VedioThamline } text='Wedding video' /> */}
-            <Flex className='gap-4'>
+            <Flex className='gap-4n flex-wrap'>
               <Cart img={ VedioThamline } text='Wedding video'/>
               <Cart img={ Taka } text='Cinematography'/>
               <Cart img={ Meru } text='Wedding video'/>
             </Flex>
           <Image className='pb-4 pt-[98px]' src={Grafice}/>
             <Image className='pb-[120px]' src={Border}/>
-             <Flex className='gap-4'>
+             <Flex className='gap-4 flex-wrap'>
               <Cart img={ VedioThamline } text='Thumbnail'/>
               <Cart img={ Taka } text='Banner'/>
               <Cart img={ Meru } text='Post design'/>
             </Flex>
               <Image className='pb-4 pt-[98px]' src={ PhotoEditing}/>
             <Image className='pb-[120px]' src={Border}/>
- <Flex className='gap-4'>
+ <Flex className='gap-4 flex-wrap'>
               <Cart img={ VedioThamline } text='Wedding'/>
               <Cart img={ Taka } text='Potrait '/>
               <Cart img={ Meru } text='landscape'/>

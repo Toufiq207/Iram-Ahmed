@@ -5,7 +5,7 @@ import Service from '../page/Service'
 
 const Homepage = () => {
   return (
-    <section className='pt-[12px]'>
+    <section className='md:pt-[12px] pt-[65px]'>
         <Container>
             
             <Hero/>
