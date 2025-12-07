@@ -2,10 +2,15 @@ import React from 'react'
 import Image from '../compnent/Image'
 
 import LineThree from '../assets/linethree.png'
-
+import TestimoniaPic from '../assets/testimonials.png'
 import Flex from '../compnent/Flex'
 import Bar from '../assets/bar.png'
-import TestimonialCart from "../component/TestimonialCart";
+import TestimonialCart from '../compnent/testimonialCart'
+
+
+
+
+
 
 const Testimonial = () => {
   return (
