@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TestimonialCart = ({heading,member,pra}) => {
+const TestCart = ({heading,member,pra}) => {
   return (
     <div className='w-[300px] h-[340px] bg-[url(/src/assets/testimonialCart.png)]'>
         <h3 className='text-center text-[#020101] text-[40px] font-exo font-bold pt-[70px] pb-[10px] uppercase'>{heading}</h3>
@@ -10,4 +10,4 @@ const TestimonialCart = ({heading,member,pra}) => {
   )
 }
 
-export default TestimonialCart
+export default TestCart
