@@ -7,7 +7,7 @@ import Image from '../compnent/Image';
 
 const Navber = () => {
   return (
-<nav className="bg-[#001202] py-[32px] fixed w-full">
+<nav className="bg-[#001202] py-[32px] fixed w-full z-10">
   <Container>
     <div className="w-full flex justify-between items-center">
       <div className="logo w-1/2">
