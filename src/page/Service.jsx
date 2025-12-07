@@ -22,7 +22,8 @@ const Service = () => {
       
 
         <div className='bg-[#ffffffbf]  w-full absolute top-0 pt-[135px]'>
-          <Image className='pb-4' src={VedioEditin}/>
+         <div className='w-fit mx-auto'>
+           <Image className='pb-4' src={VedioEditin}/>
           <Image className='pb-[120px]' src={Border}/>
             {/* <Cart img={ VedioThamline } text='Wedding video' /> */}
             <Flex className='gap-4n flex-wrap'>
@@ -30,20 +31,25 @@ const Service = () => {
               <Cart img={ Taka } text='Cinematography'/>
               <Cart img={ Meru } text='Wedding video'/>
             </Flex>
-          <Image className='pb-4 pt-[98px]' src={Grafice}/>
+         </div>
+         <div className='w-fit mx-auto'>
+           <Image className='pb-4 pt-[98px]' src={Grafice}/>
             <Image className='pb-[120px]' src={Border}/>
              <Flex className='gap-4 flex-wrap'>
               <Cart img={ VedioThamline } text='Thumbnail'/>
               <Cart img={ Taka } text='Banner'/>
               <Cart img={ Meru } text='Post design'/>
             </Flex>
-              <Image className='pb-4 pt-[98px]' src={ PhotoEditing}/>
+         </div>
+              <div className='w-fit mx-auto' >
+                <Image className='pb-4 pt-[98px]' src={ PhotoEditing}/>
             <Image className='pb-[120px]' src={Border}/>
  <Flex className='gap-4 flex-wrap'>
               <Cart img={ VedioThamline } text='Wedding'/>
               <Cart img={ Taka } text='Potrait '/>
               <Cart img={ Meru } text='landscape'/>
             </Flex>
+              </div>
 
         </div>
     
