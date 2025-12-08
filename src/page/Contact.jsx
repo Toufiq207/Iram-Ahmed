@@ -8,7 +8,7 @@ import { IoLocation } from "react-icons/io5";
 
 const Contact = () => {
   return (
-<section className='pt-[110px]'>
+<section id='contact' className='pt-[110px]'>
 <div className='w-fit mx-auto'>
     <Image className='pb-[53px]' src={Consult}/>
     <Image className='pb-7' src={LineFour}/>

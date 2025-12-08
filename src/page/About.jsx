@@ -5,9 +5,9 @@ import Flex from '../compnent/Flex'
 import Expriience from '../compnent/Expriience'
 const About = () => {
   return (
-    <section className='bg-[url(/src/assets/about.png)] mt-[1400px] md:mt-[200px]'>
-        <div className='py-[70px] md:px-[260px] ' >
-            <h1 className='text-[60px] text-[#FFFFFF] font-bold font-exo uppercase text-center'>About me</h1>
+    <section id='about'    className='bg-[url(/src/assets/about.png)] mt-[1400px] md:mt-[200px]'>
+        <div  className='py-[70px] md:px-[260px] ' >
+            <h1  className='text-[60px] text-[#FFFFFF] font-bold font-exo uppercase text-center'>About me</h1>
             <Image className='mx-auto pt-5' src={LineTwo}/>
             <p className='text-center text-[18px] text-[#FFFFFF] font-normal font-exo pt-4 '>Welcome to Iram Ahmed Creations — the creative space where ideas turn into visually stunning digital experiences.
 

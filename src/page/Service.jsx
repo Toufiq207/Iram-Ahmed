@@ -14,7 +14,7 @@ import PhotoEditing from '../assets/photoEditing .png'
 const Service = () => {
   return (
   
-  <section className='relative'>
+  <section id='service' className='relative'>
     <Container>
       <Image className='md:pt-25 pt-30' src={Vector}/>
       <Image className='md:pt-50 pt-335' src={Vector}/>

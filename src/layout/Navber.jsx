@@ -12,10 +12,12 @@ const Navber = () => {
     <div className="w-full flex justify-between items-center">
       <div className="logo w-1/2">
    <Flex className='items-center'>
-       <Flex className='items-center pr-2'>
+     <a href="#home">
+        <Flex className='items-center pr-2'>
         <Image className='w-[48px]' src={Profilepic}/>
         <p className='text-[24px] text-[#FFFFFF] font-bel font-normal'>Iram Ahmed Creations</p>
       </Flex>
+     </a>
      
        <Flex className='gap-2'>
         <FaFacebookSquare  className='text-white'/>
@@ -29,11 +31,11 @@ const Navber = () => {
 
       <div className="menu w-1/2">
         <ul className="flex justify-between uppercase">
-          <NaveberList text="Home" />
-          <NaveberList text="Service" />
+          <a href="#home"><NaveberList text="Home" /></a>
+          <a href="#service"><NaveberList text="Service" /></a>
           <NaveberList text="Portfolio" />
-          <NaveberList text="About" />
-          <NaveberList text="Contact" />
+       <a href="#about">   <NaveberList text="About" /></a>
+       <a href="#contact">   <NaveberList text="Contact" /></a>
         </ul>
       </div>
     </div>
