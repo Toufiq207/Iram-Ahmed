@@ -4,7 +4,8 @@ import Hero from '../layout/Hero'
 import Service from '../page/Service'
 import About from './About'
 import Testimonial from './Testimonial'
-import Footer from './Footer'
+import Contact from './Contact'
+
 
 const Homepage = () => {
   return (
@@ -15,7 +16,7 @@ const Homepage = () => {
             <Service/>
             <About/>
             <Testimonial/>
-            <Footer/>
+            <Contact/>
           
         </Container>
         

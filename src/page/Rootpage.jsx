@@ -6,7 +6,7 @@ const Rootpage = () => {
     <div>
         <Navber />
         <Outlet />
-        <h1>footer</h1>
+        
     </div>
   )
 }
