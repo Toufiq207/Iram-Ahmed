@@ -23,6 +23,8 @@ Over the years, I’ve worked with brands, creators, and businesses to help them
 </p>
 <p className='text-center text-[18px] text-[#FFFFFF] font-normal font-exo  '>I believe in creativity backed by strategy. Every project I take on is crafted with precision, passion, and a commitment to quality—because your visuals represent your identity.
 </p>
+<p className='text-center text-[18px] text-[#FFFFFF] font-normal font-exo  pt-4 w-[375px] mx-auto'>Thank you for visiting my creative world. Let’s build something exceptional together.
+</p>
         </div>
 
 
