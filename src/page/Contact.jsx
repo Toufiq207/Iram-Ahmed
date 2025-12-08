@@ -5,6 +5,7 @@ import LineFour from '../assets/lineFour.png'
 import Flex from '../compnent/Flex'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { IoLocation } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -15,6 +16,7 @@ const Contact = () => {
     <form className='pb-[80px]' >
        <Flex className='gap-[40px] flex-wrap'>
          <Flex className='items-center gap-[40px]'>
+
               <label htmlFor="name">My name is </label>
               <input className='py-2 border border-[#212121]' id='name' type="text" placeholder='Name'/>
         </Flex>
@@ -36,7 +38,7 @@ const Contact = () => {
             <p className='text-black text-[20px font-normal font-exo]'>Bangladesh</p>
         </Flex>
         <Flex className='items-center gap-2'>
-            <IoLocation  className='text-[#008B2C]'/>
+            <MdEmail   className='text-[#008B2C]'/>
             <p className='text-black text-[20px font-normal font-exo]'>proiramahmed@gmal.com</p>
         </Flex>
     </Flex>
