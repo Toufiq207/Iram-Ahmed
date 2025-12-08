@@ -17,8 +17,8 @@ const Service = () => {
   <section id='service' className='relative'>
     <Container>
       <Image className='sm:pt- md:pt-25 pt-30' src={Vector}/>
-      <Image className='sm:pt- md:pt-50 pt-335' src={Vector}/>
-      <Image className='sm:pt- md:pt-40 pt-340' src={Vector}/>
+      <Image className='sm:pt- md:pt-50 pt-320' src={Vector}/>
+      <Image className='sm:pt- md:pt-40 pt-335' src={Vector}/>
       
 
         <div className='bg-[#ffffffbf]  w-full absolute top-0 pt-[135px]'>
