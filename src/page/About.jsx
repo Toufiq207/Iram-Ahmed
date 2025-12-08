@@ -5,7 +5,7 @@ import Flex from '../compnent/Flex'
 import Expriience from '../compnent/Expriience'
 const About = () => {
   return (
-    <section id='about'    className='bg-[url(/src/assets/about.png)] mt-[1400px] md:mt-[200px]'>
+    <section id='about'    className='bg-[url(/src/assets/about.png)] mt-[1400px] md:mt-[200px] sm: mt-[1450px] '>
         <div  className='py-[70px] md:px-[260px] ' >
             <h1  className='text-[60px] text-[#FFFFFF] font-bold font-exo uppercase text-center'>About me</h1>
             <Image className='mx-auto pt-5' src={LineTwo}/>
