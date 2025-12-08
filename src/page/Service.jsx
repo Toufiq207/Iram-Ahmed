@@ -29,7 +29,7 @@ const Service = () => {
             <Flex className='gap-4n flex-wrap'>
               <Cart img={ VedioThamline } text='Wedding video'/>
               <Cart img={ Taka } text='Cinematography'/>
-              <Cart img={ Meru } text='Wedding video'/>
+              <Cart img={ Meru } text='Reels / shorts'/>
             </Flex>
          </div>
          <div className='w-fit mx-auto'>
