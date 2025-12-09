@@ -9,7 +9,7 @@ import Contact from './Contact'
 
 const Homepage = () => {
   return (
-    <section className='md:pt-[35px] pt-[100px]'>
+    <section className='md:pt-[35px] pt-[93px]'>
         <Container>
             
             <Hero/>

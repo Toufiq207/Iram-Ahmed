@@ -59,11 +59,7 @@ const Navber = () => {
       </Flex>
      </a>
      
-       <Flex className='gap-2 justify-center'>
-        <FaFacebookSquare  className='text-white'/>
-      <FaLinkedin className='text-white'/>
-<FaYoutube className='text-white' />
-      </Flex>
+    
    </div>
    <div className='pr-15 cursor-pointer' onClick={handleclick}>
    {
