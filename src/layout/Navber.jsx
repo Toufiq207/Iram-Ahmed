@@ -71,10 +71,10 @@ const Navber = () => {
         show &&
         <div className='flex justify-center'>
           <ul className=" uppercase">
-          <a href="#home"><NaveberList text="Home" /></a>
-          <a href="#service"><NaveberList text="Service" /></a>
-          <NaveberList text="Portfolio" />
-       <a href="#about">   <NaveberList text="About" /></a>
+          <a href="#home"><NaveberList className="pb-2" text="Home" /></a>
+          <a href="#service"><NaveberList className="pb-2" text="Service" /></a>
+          <NaveberList className="pb-2" text="Portfolio" />
+       <a href="#about">   <NaveberList className="pb-2" text="About" /></a>
        <a href="#contact">   <NaveberList text="Contact" /></a>
         </ul>
         </div>
