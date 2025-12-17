@@ -17,7 +17,7 @@ const Navber = () => {
 <div>
   <nav className="bg-[#001202] py-[32px] fixed w-full z-10 md:block hidden">
   <Container>
-    <div className="w-full flex justify-between items-center">
+    <div className="w-full flex justify-between items-center px-4">
       <div className="logo w-1/2">
    <Flex className='items-center'>
      <a href="#home">

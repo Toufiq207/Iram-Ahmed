@@ -26,7 +26,7 @@ const Contact = () => {
               <label htmlFor="massage">I am interested in </label>
               <textarea className='py-2 border border-[#212121]'  name="" id="massage" placeholder='Massage'></textarea>
         </Flex>
-        <button className='bg-[#5A5A5A] py-2  px-10 rounded-2xl text-black text-[20px] font-orbi font-extrabold hover:bg-transparent hover:border border-black drop-shadow-2xl'>sent</button>
+        <button className='bg-transparent   border border-black   py-2  px-10 rounded-2xl text-black text-[20px] font-orbi font-extrabold hover:bg-[#1BA23B] hover:text-white  hover:border-transparent drop-shadow-2xl duration-500'>sent</button>
        </Flex>
         
     </form>
