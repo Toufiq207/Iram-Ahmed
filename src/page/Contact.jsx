@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../compnent/Image'
-import Consult from '../assets/consult.png'
+// import Consult from '../assets/consult.png'
 import LineFour from '../assets/lineFour.png'
 import Flex from '../compnent/Flex'
 import { FaPhoneAlt } from 'react-icons/fa'
@@ -12,7 +12,21 @@ const Contact = () => {
   return (
 <section id='contact' className='pt-[110px]'>
 <div className='w-fit mx-auto'>
-    <Image className='pb-[53px]' src={Consult}/>
+    {/* <Image className='pb-[53px]' src={Consult}/> */}
+  <h1 className="
+  pb-[20px]
+  text-[60px]
+  font-exo
+  font-bold
+  bg-gradient-to-b
+  from-[#00770E]
+  to-[#C1FFB5]
+  bg-clip-text
+  text-transparent
+">
+  I am ready to consult you
+</h1>
+
     <Image className='pb-7' src={LineFour}/>
      
     <form className='pb-[80px]' >
@@ -26,7 +40,8 @@ const Contact = () => {
               <label htmlFor="massage">I am interested in </label>
               <textarea className='py-2 border border-[#212121]'  name="" id="massage" placeholder='Massage'></textarea>
         </Flex>
-        <button className='bg-transparent   border border-black   py-2  px-10 rounded-2xl text-black text-[20px] font-orbi font-extrabold hover:bg-[#1BA23B] hover:text-white  hover:border-transparent drop-shadow-2xl duration-500'>sent</button>
+        <button className='bg-[#5A5A5A] hover:bg-[#1BA23B] border border-transparent hover:border-black py-2  px-10 rounded-2xl text-black text-[20px] font-orbi font-extrabold  hover:text-white shadow-2xl duration-500'>sent</button>
+
        </Flex>
         
     </form>
