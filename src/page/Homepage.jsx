@@ -5,6 +5,7 @@ import Service from '../page/Service'
 import About from './About'
 import Testimonial from './Testimonial'
 import Contact from './Contact'
+import Protfolio from './Protfolio'
 
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
         <Container>
             
             <Hero/>
+            <Protfolio/>
             <Service/>
             <About/>
             <Testimonial/>

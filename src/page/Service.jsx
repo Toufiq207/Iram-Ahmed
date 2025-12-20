@@ -9,8 +9,8 @@ import VedioThamline from '../assets/videThumbnails.png'
 import Taka from '../assets/taka.png'
 import Flex from '../compnent/Flex'
 import Meru from '../assets/meru.png'
-import Grafice from '../assets/graphicsDesign.png'
-import PhotoEditing from '../assets/photoEditing .png'
+
+
 const Service = () => {
   return (
   

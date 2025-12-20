@@ -40,8 +40,8 @@ const Navber = () => {
       <div className="menu w-1/2">
         <ul className="flex justify-between uppercase">
           <a href="#home"><NaveberList text="Home" /></a>
-          <a href="#service"><NaveberList text="Service" /></a>
-          <NaveberList text="Portfolio" />
+          <a href="#prot"><NaveberList text="Service" /></a>
+         <a href="#service"> <NaveberList text="Portfolio" /></a>
        <a href="#about">   <NaveberList text="About" /></a>
        <a href="#contact">   <NaveberList text="Contact" /></a>
         </ul>
@@ -72,8 +72,8 @@ const Navber = () => {
         <div className='flex justify-center'>
           <ul className=" uppercase">
           <a href="#home"><NaveberList className="pb-2" text="Home" /></a>
-          <a href="#service"><NaveberList className="pb-2" text="Service" /></a>
-          <NaveberList className="pb-2" text="Portfolio" />
+           <a href="#prot"><NaveberList text="Service" /></a>
+         <a href="#service"> <NaveberList text="Portfolio" /></a>
        <a href="#about">   <NaveberList className="pb-2" text="About" /></a>
        <a href="#contact">   <NaveberList text="Contact" /></a>
         </ul>
